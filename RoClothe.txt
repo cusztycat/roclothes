@@ -84,7 +84,7 @@
 local RS = game:GetService("RunService")
 
 function RoClothes(Player)
-	warn("RoClothes Connected")
+	warn("hi raraa")
 
 	--[[
 	--------------------------------------------------------------------------------------------------------------
@@ -461,7 +461,7 @@ function RoClothes(Player)
 	local TS = game:GetService("TweenService")
 	local MPS = game:GetService("MarketplaceService")
 
-	local CVersion = "0.7.7:lerp()"
+	local CVersion = "i forgot again I trying bro"
 
 	local Method = 2
 	local MaxMethod = 3
@@ -504,7 +504,7 @@ function RoClothes(Player)
 	local NPCs = {}
 
 	local PositionPhysicsMultiply = 1
-	local RotationPhysicsMultiply = 4
+	local RotationPhysicsMultiply = 5
 
 	local Function = {Spring = {}}
 
@@ -517,13 +517,13 @@ function RoClothes(Player)
 			CurrentBundle = "nil",
 			AutoExecute = true,
 			DelayTime = 1,
-			Tone = "Base",
+			Tone = "Dark",
 			BundleBodyColor = true,
 			Face = true,
 			MeshSizeLock = false,
 			AccessorySizeLock = false,
 			MeshBasePartInvisible = false,
-			BodyPartPhysics = false,
+			BodyPartPhysics = true,
 			PhysicsObeyGravity = true,
 			CatalogUsername = "",
 			CatalogOutfitId = "",
@@ -545,7 +545,7 @@ function RoClothes(Player)
 			BreastsScale = 1,
 			ButtsScale = 1,
 			LegsScale = 1,
-			BreastsType = 1,
+			BreastsType = 1.15,
 			TorsoType = 1,
 			ArmType = 1,
 			LegsType = 1,
