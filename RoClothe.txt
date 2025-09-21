@@ -521,7 +521,7 @@ function RoClothes(Player)
 			BundleBodyColor = true,
 			Face = true,
 			MeshSizeLock = false,
-			AccessorySizeLock = false,
+			AccessorySizeLock = true,
 			MeshBasePartInvisible = false,
 			BodyPartPhysics = true,
 			PhysicsObeyGravity = true,
