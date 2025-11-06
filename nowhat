@@ -517,7 +517,7 @@ function RoClothes(Player)
 			CurrentBundle = "nil",
 			AutoExecute = true,
 			DelayTime = 1,
-			Tone = "Dark",
+			Tone = "Use NippleColor","Base", 
 			BundleBodyColor = true,
 			Face = true,
 			MeshSizeLock = false,
@@ -539,8 +539,8 @@ function RoClothes(Player)
 			},
 			CatalogAccessory = {},
 			CatalogRemove = {},
-			SkinTone = nil,
-			NippleColor = nil,
+			SkinTone = 255, 200, 212
+			NippleColor = 255, 223, 234
 			CockScale = 1,
 			BreastsScale = 1.15,
 			ButtsScale = 1,
