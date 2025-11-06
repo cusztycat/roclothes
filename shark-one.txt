@@ -539,7 +539,7 @@ function RoClothes(Player)
 			},
 			CatalogAccessory = {},
 			CatalogRemove = {},
-			SkinTone = 255, 200, 212
+			SkinTone = 255,200,212
 			NippleColor = 255, 223, 234
 			CockScale = 1,
 			BreastsScale = 1.15,
