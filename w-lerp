@@ -472,7 +472,7 @@ function RoClothes(Player)
 	local TS = game:GetService("TweenService")
 	local MPS = game:GetService("MarketplaceService")
 
-	local CVersion = "0.7.8:lerp()"
+	local CVersion = "yeah that one"
 
 	local loadupBundle = nil -- replace this with a bundle name to automatically load it up on execute
 	local loadupExecute = false
@@ -519,7 +519,7 @@ function RoClothes(Player)
 	local NPCs = {}
 
 	local PositionPhysicsMultiply = 1
-	local RotationPhysicsMultiply = 5
+	local RotationPhysicsMultiply = 6
 
 	-- tail stuff --
 	local includedAccessoryNames = {} -- if ur tail isnt recognized as one, put its name here
@@ -578,8 +578,7 @@ function RoClothes(Player)
 			ClothesRecolor = {},
 			CurrentBundle = "nil",
 			AutoExecute = true,
-			DelayTime = 0.7,
-			Tone = "Base",
+			DelayTime = 0.7De			Tone = "Dark",
 			BundleBodyColor = true,
 			Face = true,
 			MeshSizeLock = true,
@@ -607,7 +606,7 @@ function RoClothes(Player)
 			BreastsScale = 1,
 			ButtsScale = 1,
 			LegsScale = 1,
-			BreastsType = 1,
+			BreastsType = 1.15,
 			TorsoType = 7,
 			ArmType = 3,
 			LegsType = 2,
